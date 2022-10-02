@@ -1,0 +1,69 @@
+Jay Bentley
+CSCI 4229 - Fall 2021
+
+Project- Exploring different techniques in openGL
+
+Camp Ground Island
+
+Fog is implemented for atmospheric effect - TURNED OFF USING 'f'
+
+USE F4-F8 TO SEE VIEWS OF EACH SCENE
+
+F4 - Shows a view of the pond with fish swimming around in the water
+   - Uses tranlucent textures to show the fishing swimming around under the water
+   - Uses animation for fish to swim around along their path
+   - I am very proud of this pond with the translucent textures and fishing swimming around
+
+F5 - Shows a view of Log Cabin, a ghost hovering over the pond and a wind turbine
+   - Uses animation to show smoke coming out of chimnney and the wind turbine turning in the wind
+   - Ghost uses translucent textures to show other objects past the ghost through those texture
+
+F6 - Shows a view of the forest that can be randomized by pressing 'r' or 'R'
+   - Uses scaling matrices and random values to ramdomize forest to give it a more real look
+
+F7 - Shows a view of powerline that has been broken
+   - Uses a timer to create sparks from the broken wire
+
+F8 - Shows a view of a sandbox in the camping ground
+   - Shows different ways of modeling a cactus, a coconut, and a sand pyramid
+
+I focused mainly on trying now techniques which took a lot of my time that I would have spent making more objects. 
+I am very proud of the pond which incorperated two of my major goals which was using translucent textures and animation of my textures.
+I also struggled with getting fog to work correctly but I also got that to function correctly in my scene.
+I also am proud with how my randomized forest generates as it looks pretty realistic with tree placements and heights.
+I am happy with how my sky box turned out and how it helped the appearance of the scene.
+I have taken all I learned from the lectures and homework and culminated it all into this scene.
+
+I feel that I would have been able to make much for intricate objects if I had taken algorithms or other such classes. I struggled with creating programs to create more intricate objects so I focused on other aspects of computer graphics like the effects of translucent textures and animations to enhance my scene.
+
+Code segments taken class example 6, 8, 9, 10, 13, 14, 18, and 24
+
+Using the CSCIx229 library made for this class
+
+All additonal code outside of code from class examples is my own code
+
+Key bindings:
+l          Toggles lighting
+F1         Toggle smooth/flat shading
+F2         Toggle local viewer mode
+F3         Toggle light distance (1/5)
+F4         Scene 1 view
+F5         Scene 2 view
+F6         Scene 3 view
+F7         Scene 4 View
+F8         Scene 5 view
+F9         Invert bottom normal
+m          Toggles light movement
+[]         Lower/rise light
+p          Toggles ortogonal/perspective projection
+o          Cycles through objects
+h/H        Cycle through each scene
+r/R        Randomize placment of trees
+f          Turns fog on/off
++/-        Change field of view of perspective
+x          Toggle axes
+arrows     Change view angle
+w/a/s/d    Move camera around area
+PgDn/PgUp  Zoom in and out
+0          Reset view angle
+ESC        Exit
